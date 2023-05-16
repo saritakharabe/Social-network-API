@@ -18,4 +18,4 @@ To install this project, clone the repo into your local machine. Once cloned, ru
 This project uses Insomnia to test API routes and Screencastify to create the walkthrough video.
 
 ## Demonstration
-[Walkthrough video](./walkthrough-video/social-network-api.gif)
+[Walkthrough video](./walthrough-video/social-network-api.gif)
