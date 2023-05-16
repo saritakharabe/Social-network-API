@@ -95,7 +95,7 @@ module.exports = {
         { runValidators: true, new: true }
       );
       if (!newReaction) {
-        res.status(404).json({ message: "Oops! Something went wrong." });
+        res.status(404).json({ message: "Something went wrong." });
       } else {
         res.status(200).json(newReaction);
       }
@@ -112,7 +112,7 @@ module.exports = {
         { runValidators: true, new: true }
       );
       if (!deleteReaction) {
-        res.status(404).json({ message: "Oops! Something went wrong" });
+        res.status(404).json({ message: "Something went wrong" });
       } else {
         res.status(200).json(deleteReaction);
       }
